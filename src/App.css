@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  color: white;
+  background-color: #282c34;
+  height: 100vh;
+  position: relative;
 }
 
 .App-logo {
@@ -35,4 +39,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  font-size: 40px;
+  background-color: black;
+}
+
+.inputField {
+  padding: 10px;
+}
+
+.addItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addItem input {
+  background-color: #ffffff;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 75%;
+}
+
+.addItem button {
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: #faff52;
+  border: none;
+  height: 25px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.listItem {
+  margin-top: 10px;
+  background-color: #404952;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.listItem h3 {
+  width: 80%;
+}
+
+.listItem button {
+  position: absolute;
+  right: 20px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: white;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: black;
+  width: 100%;
+  padding: 5px 0;
 }
